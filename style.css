@@ -11,37 +11,6 @@ body{
     gap: 10px;
 }
 
-.img01{
-    width: 220px;
-    height: 220px;
-    left: 1020px;
-    top: 20px;
-    position: absolute;
-}
-
-.img02{
-    width: 240px;
-    height: 240px;
-    left: 5px;
-    top: 300px;
-    position: absolute;
-}
-
-.img03{
-    width: 250px;
-    height: 280px;
-    left: 1000px;
-    top: 300px;
-    position: absolute;
-}
-.img04{
-    width: 220px;
-    height: 220px;
-    left: 10px;
-    top: 20px;
-    position: absolute;
-}
-
 .carta{
     position: relative;
     cursor: pointer;
