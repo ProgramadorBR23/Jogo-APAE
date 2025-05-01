@@ -1,0 +1,86 @@
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: rgb(4, 99, 102);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 180px);
+    gap: 10px;
+}
+
+.img01{
+    width: 220px;
+    height: 220px;
+    left: 1020px;
+    top: 20px;
+    position: absolute;
+}
+
+.img02{
+    width: 240px;
+    height: 240px;
+    left: 5px;
+    top: 300px;
+    position: absolute;
+}
+
+.img03{
+    width: 250px;
+    height: 280px;
+    left: 1000px;
+    top: 300px;
+    position: absolute;
+}
+.img04{
+    width: 220px;
+    height: 220px;
+    left: 10px;
+    top: 20px;
+    position: absolute;
+}
+
+.carta{
+    position: relative;
+    cursor: pointer;
+}
+
+.atras{
+    background-color: cadetblue;
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    font-size: 40px;
+    display: grid;
+    place-content: center;
+    font-weight: bold;
+    backface-visibility: hidden;
+    transition: all 500ms ease;
+}
+
+.frente{
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: all 500ms ease;
+}
+
+.carta-virada .frente{
+    transform: rotateY(0deg);
+}
+
+.carta-virada .atras{
+    transform: rotateY(180deg);
+}
+
+button{
+    border: none;
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    place-self: center;
+    cursor: pointer;
+}
