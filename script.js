@@ -8,7 +8,7 @@ let contador = 0;
 // itens
 const items = [
     {nome: "papagaio", imagem: "papagaio.png"},
-    {nome: "gato", imagem: "gato.jpg"},
+    {nome: "gato", imagem: "gato.png"},
     {nome: "Totoro", imagem: "Totoro.webp"},
     {nome: "peppa", imagem: "peppa.png"},
     {nome: "cavalo", imagem: "cavalo.png"},
